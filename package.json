@@ -1,7 +1,7 @@
 {
-  "name": "@dashevo/dapi-client",
+  "name": "dapi-client",
   "version": "0.21.2",
-  "description": "Client library used to access Dash DAPI endpoints",
+  "description": "Client library used to access HTH DAPI endpoints",
   "main": "lib/DAPIClient.js",
   "contributors": [
     {
@@ -26,10 +26,10 @@
     }
   ],
   "dependencies": {
-    "@dashevo/dapi-grpc": "~0.21.0",
-    "@dashevo/dashcore-lib": "~0.19.26",
-    "@dashevo/dpp": "~0.21.0",
-    "@dashevo/grpc-common": "~0.5.4",
+    "dapi-grpc": "HTHcoin/dapi-grpc",
+    "hthcore-lib": "MichaelHDesigns/hthcore-lib",
+    "dpp": "HTHcoin/js-dpp",
+    "grpc-common": "HTHcoin/js-grpc-common",
     "@grpc/grpc-js": "^1.3.7",
     "axios": "^0.21.1",
     "bs58": "^4.0.1",
